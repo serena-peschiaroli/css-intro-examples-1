@@ -1,3 +1,7 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #main-title {
     color: brown;
 }
@@ -31,4 +35,44 @@ p {
 
 .pink .inner-text {
     color: brown;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+div {
+    display:block
+}
+.rectangle-image {
+    width: 150px;
+    height: 100px;
+}
+
+/*non si setta l'altezza al di fuori delle immagini*/
+
+.border {
+    /*border-width: 5px;
+    border-color: blue;
+    border-style: solid;*/
+    border: 5px solid blue;
+    border-bottom-color: orange;
+    border-left-style: dotted;
+}
+
+.my-text {
+    text-align: center;
+}
+
+.error {
+    text-decoration: underline;
+}
+
+.box { 
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: url(../img/PHOTO-2021-02-27-20-02-30.jpg);
+    background-position: center;
+    background-size: contain;
 }
