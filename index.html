@@ -1,54 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Css first example</title>
+    <title>Product Mockup Templates</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/bbcfcd8fde.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <!-- si può usare stile inline ma non si usa quasi mai -->
-    <!-- <h1 style="color: red;">Sono il titolo principale</h1> -->
+    <header>
+        <div class="logo">Creative Elements</div>
+        <button class="cta-button">Get unlimited solutions</button>
+    </header>
 
-    <!-- oppure style tag
-    style <h1 style="color: red;> bla bla </h1>" -->
-    <h1 id="main-title">Sono il titolo principale</h1>
-    <!-- #=id identificatore univoco nella pag html
-id si utilizza molto raramente perché un id può essere utilizzato una sola volta nella pagina, da usare con javascript, con css meglio utilizzare la classe-->
+    <section class="hero">
+        <h1>Unlimited Web Sites Templates</h1>
+        <p>Realistic, customizable and beautifully designed product layouts ready to customize and use.</p>
+        <button class="start-button">Start now</button>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/art-gallery-landing-page.webp" alt="Mockup 1"></div>
+                <div class="swiper-slide"><img src="img/art-landing-page.webp" alt="Mockup 2"></div>
+                <div class="swiper-slide"><img src="img/travel-landing-page.webp" alt="Mockup 3"></div>
+                <div class="swiper-slide"><img src="img/coffee-mug-impressionism.webp" alt="Mockup 4"></div>
+                <div class="swiper-slide"><img src="img/travel-landing-page.webp" alt="Mockup 5"></div>
+            </div>
+        </div>
+    </section>
 
-    <p>Green paragraph</p>
+    <section class="features">
+        <div class="feature">
+            <i class="fa-solid fa-ranking-star"></i>
+            <h3>Premium quality assets</h3>
+            <p>Get quality results with thousands of premium templates.</p>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-thumbs-up"></i>
+            <h3>Easy to edit</h3>
+            <p>All product are fully customizable to fit your brand.</p>
+        </div>
+        <div class="feature">
+            <i class="fa-solid fa-people-arrows"></i>
+            <h3>Unlimited solution</h3>
+            <p>Download as many templates as you need with unlimited access.</p>
+        </div>
+    </section>
+    <section class="subscription">
+        <h2>One subscription. Unlimited solutions.</h2>
+        <button class="cta-button">Get unlimited solutions</button>
+        <div class="collage">
+            <img src="img/art-gallery-landing-page.webp" alt="Collage Image 1">
 
-    <p class="red-text">Red Paragraph</p>
+        </div>
+    </section>
 
-    <h3 class="red-text big-text">Seconto titolo</h3>
+<footer>
+    <nav>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">License</a>
+        <a href="#">Help</a>
+    </nav>
+    <p>&copy; 2024 Creative Elements Ltd. Trademarks and brands are the property of their respective owners.</p>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
     
-    <div class="yellow">
-        <p class="inner-text">Testo all'interno del div</p>
-    </div>
-    <div class="pink">
-        <p class="inner-text">Testo all'interno del div</p>
-    </div>
-
-    <!-- esempi di width e height -->
-
-    <div class="square"></div>
-    <img class="rectangle-image" src="img/images3.jpg" alt="">
-
-    <span>Elemento Span</span>
-
-    <!-- border -->
-    <div class="square border">
-        con bordo
-    </div>
-
-    <!-- text properties -->
-
-    <p class="my-text">Lorem <span class="error">  ipsum dolor sit amet </span> consectetur adipisicing elit. Veritatis illum recusandae aperiam? Itaque, vitae esse. Repudiandae excepturi quasi magnam sit suscipit. Minus laudantium asperiores explicabo optio accusantium fugit dicta laboriosam!</p>
-
-    <!-- background images -->
-
-    <div class="box"> Ciao, sono una bella torta</div>
-
 </body>
+
 </html>
